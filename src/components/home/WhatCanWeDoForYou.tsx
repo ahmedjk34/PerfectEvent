@@ -1,13 +1,12 @@
 import styles from "../../styles/pages/home.module.scss";
-import contentArray from "./content";
+import { contentArray } from "./data";
 import { v4 } from "uuid";
 import { useInView } from "react-intersection-observer";
-import { useEffect } from "react";
 
 type Props = {};
 
 function WhatCanWeDoForYou({}: Props) {
-  const { ref, inView, entry } = useInView({
+  const { ref, inView } = useInView({
     /* Optional options */
     threshold: 0,
   });

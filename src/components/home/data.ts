@@ -2,6 +2,12 @@ import img1 from "../../assets/home/img1.webp";
 import img2 from "../../assets/home/img2.webp";
 import img3 from "../../assets/home/img3.webp";
 import img4 from "../../assets/home/img4.jpg";
+import slide1 from "../../assets/home/slide1.webp";
+import slide2 from "../../assets/home/slide2.webp";
+import slide3 from "../../assets/home/slide3.webp";
+import slide4 from "../../assets/home/slide4.webp";
+import slide5 from "../../assets/home/slide5.webp";
+import slide6 from "../../assets/home/slide6.webp";
 interface whatCanWeDoForYouContent {
   title: String;
   desc: String;
@@ -31,4 +37,5 @@ const contentArray: whatCanWeDoForYouContent[] = [
   },
 ];
 
-export default contentArray;
+const sliderArray = [slide1, slide6, slide5, slide4, slide3, slide2];
+export { contentArray, sliderArray };
