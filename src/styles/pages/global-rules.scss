@@ -10,6 +10,10 @@
   display: grid;
   min-height: 100vh;
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 html {
   scroll-behavior: smooth;

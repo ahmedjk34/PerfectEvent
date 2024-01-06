@@ -3,13 +3,13 @@
   position: fixed;
   display: flex;
   justify-content: center;
-  gap: 20vw;
+  gap: min(20rem, 20vw);
   align-items: center;
   color: white;
   width: 100%;
+  max-width: 2000px;
   height: 6rem;
   background-color: black;
-
   opacity: 0.8;
   z-index: 99; //to ensure it stays on top
 

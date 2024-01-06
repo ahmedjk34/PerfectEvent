@@ -1,4 +1,5 @@
 import styles from "../../styles/pages/home.module.scss";
+
 import Slider from "./Slider";
 
 type Props = {};
