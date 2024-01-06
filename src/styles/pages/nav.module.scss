@@ -33,5 +33,16 @@
   h3 {
     font-family: v.$mainFont;
     font-size: 1.2rem;
+    a {
+      color: white;
+      text-decoration: none;
+      transition: color 0.25s ease-in-out;
+    }
+
+    a:hover {
+      color: gray;
+      text-decoration: none;
+      cursor: pointer;
+    }
   }
 }
