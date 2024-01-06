@@ -9,8 +9,8 @@ import slide4 from "../../assets/home/slide4.webp";
 import slide5 from "../../assets/home/slide5.webp";
 import slide6 from "../../assets/home/slide6.webp";
 interface whatCanWeDoForYouContent {
-  title: String;
-  desc: String;
+  title: string;
+  desc: string;
   img: string;
 }
 

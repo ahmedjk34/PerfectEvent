@@ -6,9 +6,9 @@ import img5 from "../../assets/discover/5.webp";
 import img6 from "../../assets/discover/6.webp";
 
 interface Discover {
-  title: String;
+  title: string;
   price: number;
-  desc: String;
+  desc: string;
   img: string;
 }
 
