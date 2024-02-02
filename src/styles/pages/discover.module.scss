@@ -13,6 +13,7 @@
     display: grid;
     grid-template: 500px / repeat(auto-fit, minmax(300px, 1fr));
     grid-auto-rows: 500px;
+
     gap: 2rem;
     color: white;
     font-family: v.$mainFont;
