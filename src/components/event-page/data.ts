@@ -12,7 +12,7 @@ interface Content {
   our_view: string;
 }
 
-const content: Content[] = [
+const eventContentArray: Content[] = [
   {
     id: 1,
     img: img1,
@@ -56,4 +56,5 @@ const content: Content[] = [
       "We are passionate about transforming ordinary occasions into extraordinary memories that last a lifetime. With a team of dedicated event planners and creative minds, we specialize in curating and orchestrating unforgettable experiences for every milestone in your life. At Perfect Event, we don't just plan events; we create magical moments that are etched in your heart forever. Trust us to make your special occasions truly exceptional. ",
   },
 ];
-export default content;
+export type { Content };
+export default eventContentArray;

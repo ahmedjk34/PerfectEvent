@@ -13,7 +13,7 @@ interface Discover {
   img: string;
 }
 
-const contentArray: Discover[] = [
+const discoverContentArray: Discover[] = [
   {
     id: 1,
     title: "Happy Anniversary!",
@@ -57,4 +57,4 @@ const contentArray: Discover[] = [
     img: img6,
   },
 ];
-export default contentArray;
+export default discoverContentArray;
