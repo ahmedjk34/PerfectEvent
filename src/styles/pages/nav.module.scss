@@ -12,7 +12,10 @@
   background-color: black;
   opacity: 0.8;
   z-index: 99; //to ensure it stays on top
-
+  * {
+    //getting them to be centered by giving them all the same width , this is the precise width of the biggest element
+    width: 12.306rem;
+  }
   //logo
   h1 {
     font-family: v.$titleFont;
