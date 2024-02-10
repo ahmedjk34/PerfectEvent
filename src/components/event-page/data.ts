@@ -177,5 +177,5 @@ const optionsArray: { mainTitle: string; options: Option[] }[] = [
     ],
   },
 ];
-export type { Content };
+export type { Content, Option };
 export { eventContentArray, optionsArray };
