@@ -193,3 +193,19 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .eventPage {
+    padding: 1rem;
+    .ourViewSection {
+      padding: 0;
+    }
+    .selectDesign {
+      .optionsWrapper {
+        > div {
+          width: 90vw;
+        }
+      }
+    }
+  }
+}

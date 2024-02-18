@@ -13,7 +13,6 @@ type OptionWithFamily = {
 function Event({}: Props) {
   const { id } = useParams();
   const [content, setContent] = useState<Content | null>(null);
-  const [totalPrice, setTotalPrice] = useState<number>(0);
   const [currentlySelected, setCurrentlySelected] = useState<
     OptionWithFamily[]
   >([]);
@@ -79,7 +78,7 @@ function Event({}: Props) {
                     name={setSectionAttributes(index)}
                     value={option.title}
                     checked={isChecked(option.title)}
-                    onChange={(e) =>
+                    onChange={() =>
                       handleChange(option, setSectionAttributes(index))
                     }
                   />

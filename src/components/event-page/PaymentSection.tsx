@@ -19,7 +19,7 @@ function PaymentSection({ currentlySelected }: Props) {
   }
   return (
     <div className={`${styles.paymentSection} ${isOpen ? styles.opened : ""}`}>
-      <div className={styles.arrow} onClick={(e) => setIsOpen(!isOpen)}>
+      <div className={styles.arrow} onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? "▾" : "▴"}
       </div>
       <div className={styles.itemsWrapper}>
