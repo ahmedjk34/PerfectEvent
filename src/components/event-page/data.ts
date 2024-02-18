@@ -122,17 +122,17 @@ const optionsArray: { mainTitle: string; options: Option[] }[] = [
       {
         title: "Counter-stool",
         img: cImg1,
-        price: "4₪/Chair",
+        price: "4$/Chair",
       },
       {
         title: "Eames Chair",
         img: cImg2,
-        price: "9₪/Chair",
+        price: "9$/Chair",
       },
       {
         title: "Barrel Chair",
         img: cImg3,
-        price: "15₪/Chair",
+        price: "15$/Chair",
       },
     ],
   },
@@ -142,17 +142,17 @@ const optionsArray: { mainTitle: string; options: Option[] }[] = [
       {
         title: "Lily Flowers",
         img: flImg1,
-        price: "12₪/Pack",
+        price: "12$/Pack",
       },
       {
         title: "Roses",
         img: flImg2,
-        price: "15₪/Pack",
+        price: "15$/Pack",
       },
       {
         title: "Tulips",
         img: flImg3,
-        price: "20₪/Chair",
+        price: "20$/Chair",
       },
     ],
   },
@@ -162,17 +162,17 @@ const optionsArray: { mainTitle: string; options: Option[] }[] = [
       {
         title: "Seafood",
         img: foImg1,
-        price: "40₪/Dish",
+        price: "40$/Dish",
       },
       {
         title: "Vegan Food ",
         img: foImg2,
-        price: "15₪/Dish",
+        price: "15$/Dish",
       },
       {
         title: "German Desserts",
         img: foImg3,
-        price: "2₪/Dish",
+        price: "2$/Dish",
       },
     ],
   },

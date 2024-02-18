@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { Content, eventContentArray, Option, optionsArray } from "./data";
 import styles from "../../styles/pages/event.module.scss";
 import { v4 } from "uuid";
+import PaymentSection from "./PaymentSection";
 type Props = {};
 type OptionWithFamily = {
   family: string;
@@ -21,16 +22,16 @@ function Event({}: Props) {
   }, [id]);
   function setSectionAttributes(index: number): string {
     if (index == 0) {
-      return "theme";
+      return "Theme";
     } else if (index == 1) {
-      return "venue";
+      return "Venue";
     }
     if (index == 2) {
       return "chairs";
     } else if (index == 3) {
-      return "flowers";
+      return "Flowers";
     } else {
-      return "food";
+      return "Food";
     }
   }
   function handleChange(option: Option, family: string) {
@@ -88,7 +89,7 @@ function Event({}: Props) {
           </div>
         ))}
       </div>
-      <div></div>
+      <PaymentSection currentlySelected={currentlySelected} />
     </div>
   );
 }

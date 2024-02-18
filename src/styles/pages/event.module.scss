@@ -114,7 +114,82 @@
       }
     }
   }
-  .menuItem {
-    color: red;
+  .paymentSection {
+    height: 0rem;
+    position: fixed;
+    background-color: rgb(251, 251, 251);
+    width: 100%;
+    bottom: 0;
+    z-index: 4;
+    border-top: 3px solid darkgray;
+    color: black;
+    transition: height 0.4s ease-in-out;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .arrow {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2.5rem;
+      width: 3rem;
+      height: 3rem;
+      left: 50%;
+      transform: translateX(-50%);
+      top: -2.25rem;
+      background-color: rgb(44, 44, 44);
+      z-index: 5;
+      padding: 1rem;
+      border-radius: 5rem;
+      color: white;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    &.opened {
+      height: 32rem;
+    }
+    .itemsWrapper {
+      display: grid;
+      grid-template: 1fr / repeat(auto-fill, minmax(300px, 1fr));
+      gap: 4rem;
+      width: 100%;
+      overflow: scroll;
+      min-height: 21rem;
+      h2 {
+        text-align: center;
+        font-family: v.$titleFont;
+        font-size: 1.75rem;
+      }
+      .item {
+        font-family: v.$mainFont;
+        img {
+          width: 100%;
+        }
+        h3 {
+          font-size: 1.25rem;
+          margin-bottom: 0.2rem;
+        }
+        p {
+          font-size: 1.05rem;
+        }
+      }
+    }
+    button {
+      width: 8rem;
+      height: 2.75rem;
+      margin-top: 1rem;
+      background-color: black;
+      color: white;
+      font-family: v.$titleFont;
+      font-size: 1.5rem;
+      box-shadow: 4px 6px rgb(255, 223, 41);
+      border-radius: 0.25rem;
+      &:hover {
+        cursor: pointer;
+      }
+    }
   }
 }
